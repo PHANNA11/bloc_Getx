@@ -13,3 +13,9 @@ class CounterController extends GetxController {
     update();
   }
 }
+
+class CartController extends GetxController {
+  RxList<ProductModel> product = <ProductModel>[].obs;
+}
+
+class ProductModel {}

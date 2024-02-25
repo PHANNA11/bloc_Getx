@@ -19,7 +19,7 @@ class HomeScreen extends StatelessWidget {
                 onPressed: () {
                   Get.to(() => GetxPage2());
                 },
-                icon: Icon(Icons.next_plan))
+                icon: const Icon(Icons.next_plan))
           ],
         ),
         body: Center(
